@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+
 import { HeaderFacheroComponent } from './header-fachero/header-fachero.component';
 import { HeroComponent } from './hero/hero.component';
+import { NavbarComponent } from "./components/navbar/navbar.component";
+
 
 @Component({
   selector: 'app-root',
